@@ -1,6 +1,5 @@
 import HeaderOfTPages from "../components/HeaderOfTPages";
 import ListOfOptions from "../components/ListofOptions";
-import RightSide from "../components/RightSide";
 
 function TattooPages() {
   return (
