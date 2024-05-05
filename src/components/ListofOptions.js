@@ -3,41 +3,46 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ListOfOptions() {
   return (
-    <div className=" flex flex-row">
-      <div class="flex items-center justify-center px-6 md:px-60">
-        <div class="space-y-6">
-          <div class=" ">
-            <div class="">
-              <p class="mt-2 text-sm text-gray-500">
-                Hot Rod Demon
-                <span>
-                  {" "}
-                  <FontAwesomeIcon icon={faCartShopping} color="#b3eeb1" />
-                </span>
-              </p>
-            </div>
-          </div>
-          <div class=" ">
-            <div class="">
-              <p class="mt-2 text-sm text-gray-500">
-                Hot Rod Demon
-                <span>
-                  <FontAwesomeIcon icon={faCartShopping} color="#b3eeb1" />
-                </span>
-              </p>
-            </div>
-          </div>
-          <div class=" ">
-            <div class="">
-              <p class="mt-2 text-sm text-gray-500">
-                Hot Rod Demon
-                <span>
-                  <FontAwesomeIcon icon={faCartShopping} color="#b3eeb1" />
-                </span>
-              </p>
-            </div>
-          </div>
-        </div>
+    <div className=" flex flex-col text-white gap-10 text-lg">
+      <div class=" flex bg-cusblue100 w-screen justify-around">
+        <p className=" pl-5">
+          Hot Rod Demon 150 <span className=" text-cusgreen">$</span>
+          <span>
+            <FontAwesomeIcon icon={faCartShopping} color="#b3eeb1" />
+          </span>
+        </p>
+      </div>
+      <div className=" flex ">
+        <p class=" pl-5">
+          Hot Rod Demon 150 <span className=" text-cusgreen">$</span>
+          <span>
+            <FontAwesomeIcon icon={faCartShopping} color="#b3eeb1" />
+          </span>
+        </p>
+      </div>
+      <div className=" flex bg-cusblue100 w-screen ">
+        <p class=" pl-5">
+          Hot Rod Demon 150 <span className=" text-cusgreen">$</span>
+          <span>
+            <FontAwesomeIcon icon={faCartShopping} color="#b3eeb1" />
+          </span>
+        </p>
+      </div>
+      <div className=" flex ">
+        <p class=" pl-5">
+          Hot Rod Demon 150 <span className=" text-cusgreen">$</span>
+          <span>
+            <FontAwesomeIcon icon={faCartShopping} color="#b3eeb1" />
+          </span>
+        </p>
+      </div>
+      <div className=" flex bg-cusblue100 w-screen">
+        <p class=" pl-5">
+          Hot Rod Demon 150 <span className=" text-cusgreen">$</span>
+          <span>
+            <FontAwesomeIcon icon={faCartShopping} color="#b3eeb1" />
+          </span>
+        </p>
       </div>
     </div>
   );
